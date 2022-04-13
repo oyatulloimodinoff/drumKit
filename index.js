@@ -19,7 +19,6 @@ document.addEventListener('keydown', (e) => {
 
 
     function playBaraban(key) {
-        animationButton(key)
         switch (key) {
             case 'w':
                 const crash = new Audio('sounds/crash.mp3')
